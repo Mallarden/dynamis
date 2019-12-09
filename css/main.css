@@ -81,8 +81,12 @@ table {
   border-spacing: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: "Volkhov", serif !important;
+}
+
+h2 {
+  font-weight: bolder;
 }
 
 p, ul, li {
@@ -109,12 +113,12 @@ body header .header-inner {
   display: flex;
   justify-content: space-between;
 }
-body header .menu ul li {
+body header .nav ul li {
   list-style: none;
   padding-top: 25px;
   font-size: 14px;
 }
-body header .menu ul li a {
+body header .nav ul li a {
   color: #999;
 }
 body header .dropdown .btn-secondary {
@@ -147,6 +151,14 @@ body header .support-btn {
   height: 85vh;
   width: 100%;
   display: flex;
+}
+
+.player .vp-sidedock {
+  display: none !important;
+}
+
+.player .vp-controls-wrapper, .player .vp-video-wrapper {
+  display: none !important;
 }
 
 .hero-text-container {
@@ -193,6 +205,7 @@ section .section-wrapper {
 }
 section .section-wrapper h2 {
   text-align: center;
+  width: 100%;
 }
 section .section-wrapper p {
   margin-bottom: 0.5rem;
@@ -213,17 +226,18 @@ section .section-wrapper ul {
   background-color: #C4C4C4;
 }
 .fourth-section .personbild {
+  min-width: 150px;
+  margin: 0 auto;
   height: 200px;
   max-width: 200px;
   border-radius: 50%;
   background-size: cover;
   background-position: center;
 }
-.fourth-section .teambild {
-  max-width: 75%;
-}
 .fourth-section .our-team-img-info {
   padding-top: 25px;
+  margin: 0 auto;
+  max-width: min-content;
 }
 .fourth-section .our-team-img-info p {
   text-align: left;
@@ -241,7 +255,7 @@ footer h2 {
   font-size: 1.5rem;
 }
 footer .footer-container {
-  width: 90%;
+  width: 75%;
   margin: 0 auto;
   padding-top: 20px;
 }

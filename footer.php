@@ -14,8 +14,8 @@
 					<div class="col-lg-6">
 						<div class="icon-wrapper d-flex">
 							<i class="fa fa-facebook-f"></i>
-							<i class="fa fa-facebook-f"></i>
-							<i class="fa fa-facebook-f"></i>
+							<i class="fa fa-vimeo-v"></i>
+							<i class="fab fa-linkedin-in"></i>
 						</div>
 					</div>
 					<div class="col-lg-3 side-col">

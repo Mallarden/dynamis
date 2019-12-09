@@ -3,14 +3,18 @@
 @import '_reset';
 
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Volkhov', serif !important;
+}
+h2 {
+    font-weight:bolder;
 }
 p, ul, li {
     font-family: 'Montserrat', sans-serif !important;
 }
 body {
     overflow-x: hidden;
+    
     header {
         height:75px;
         background-color:white;
@@ -32,7 +36,7 @@ body {
         img {
             
         }
-        .menu {
+        .nav {
             ul {
                 li {
                     list-style: none;
@@ -82,6 +86,13 @@ body {
     width:100%;
     display: flex;
 }
+
+.player .vp-sidedock {
+    display:none !important;
+}
+.player .vp-controls-wrapper, .player .vp-video-wrapper {
+    display:none !important;
+}
 .hero-text-container {
     display: flex;
     align-items: center;
@@ -128,6 +139,7 @@ section {
         }
         h2 {
             text-align:center;
+            width:100%;
         }
         p {
             margin-bottom:0.5rem;
@@ -156,6 +168,8 @@ section {
 
 .fourth-section {
     .personbild {
+        min-width: 150px;
+        margin: 0 auto;
         height: 200px;
         max-width: 200px;
         border-radius: 50%;
@@ -163,10 +177,11 @@ section {
         background-position: center;
     }
     .teambild {
-        max-width:75%;
     }
     .our-team-img-info {
         padding-top:25px;
+        margin: 0 auto;
+        max-width: min-content;
         p {
             text-align:left;
         }
@@ -184,7 +199,7 @@ footer {
         font-size:1.5rem;
     }
     .footer-container {
-        width: 90%;
+        width: 75%;
         margin: 0 auto;
         padding-top:20px;
         .icon-wrapper {
