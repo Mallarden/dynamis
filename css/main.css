@@ -1,0 +1,341 @@
+.fade-y.delighter {
+  transition: all 0.6s ease-out;
+  transform: translateY(3%);
+  opacity: 0;
+}
+
+.fade-y.delighter.started {
+  transform: none;
+  opacity: 1;
+}
+
+.fade-x.delighter {
+  transition: all 0.6s ease-out;
+  transform: translateX(3%);
+  opacity: 0;
+}
+
+.fade-x.delighter.started {
+  transform: none;
+  opacity: 1;
+}
+
+.fade-xl.delighter {
+  transition: all 0.6s ease-out;
+  transform: translateX(-3%);
+  opacity: 0;
+}
+
+.fade-xl.delighter.started {
+  transform: none;
+  opacity: 1;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Volkhov", serif !important;
+}
+
+p, ul, li {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+body header {
+  height: 75px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+body header .logo img {
+  height: 75px;
+}
+body header .header-inner {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+body header .menu ul li {
+  list-style: none;
+  padding-top: 25px;
+  font-size: 14px;
+}
+body header .menu ul li a {
+  color: #999;
+}
+body header .dropdown .btn-secondary {
+  background-color: transparent;
+  border: 0;
+  margin: 15px;
+}
+body header .support-btn {
+  margin: 15px;
+  height: 40px;
+  background-color: #1a1a1a;
+  border: 0;
+  border-radius: 25px;
+  font-size: 14px;
+  width: 150px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+}
+
+.hero-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  top: 0;
+  position: fixed;
+  height: 85vh;
+  width: 100%;
+  display: flex;
+}
+
+.hero-text-container {
+  display: flex;
+  align-items: center;
+  height: 85vh;
+  margin: 0 auto;
+  position: relative;
+}
+.hero-text-container .hero-title {
+  width: 80%;
+  text-align: left;
+  margin: 0 auto;
+}
+.hero-text-container h1 {
+  color: #22374C;
+  font-size: 5em;
+  text-align: center;
+  width: 60%;
+  min-width: 350px;
+}
+
+.arrow-scroll {
+  color: #22374C;
+  width: 50px;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  font-size: 5em;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 15vh;
+}
+
+section {
+  background-color: white;
+}
+section .section-wrapper {
+  padding: 100px 0px 150px 0px;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+section .section-wrapper h2 {
+  text-align: center;
+}
+section .section-wrapper p {
+  margin-bottom: 0.5rem;
+}
+section .section-wrapper ul {
+  width: max-content;
+  padding-inline-start: 20px;
+}
+
+.second-section {
+  background-color: #22374C;
+}
+.second-section iframe {
+  margin: 0 auto;
+}
+
+.third-section {
+  background-color: #C4C4C4;
+}
+.fourth-section .personbild {
+  height: 200px;
+  max-width: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.fourth-section .teambild {
+  max-width: 75%;
+}
+.fourth-section .our-team-img-info {
+  padding-top: 25px;
+}
+.fourth-section .our-team-img-info p {
+  text-align: left;
+}
+
+footer {
+  width: 100%;
+  background-color: #22374C;
+  padding-bottom: 25px;
+}
+footer h2 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+footer .footer-container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+footer .footer-container .icon-wrapper {
+  color: white;
+  width: 200px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+}
+footer .footer-container .icon-wrapper i {
+  font-size: 2.5em;
+}
+footer .footer-container .side-col {
+  text-align: center;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+@media only screen and (max-width: 1200px) {
+  section .section-wrapper {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .hero-text-container .hero-title {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-text-container .hero-title h1 {
+    width: 100%;
+    font-size: 4em;
+  }
+
+  .third-section {
+    background-color: #C4C4C4;
+  }
+  .third-section .section-wrapper .third-section-content {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 991px) {
+  footer h2 {
+    padding-top: 30px;
+  }
+  footer .footer-container {
+    padding-top: 0px;
+  }
+  footer .footer-container .icon-wrapper {
+    color: white;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+  }
+  footer .footer-container .icon-wrapper i {
+    font-size: 2.5em;
+  }
+  footer div {
+    padding: 10px 0px 10px 0px;
+  }
+  footer div ul, footer div p {
+    margin-bottom: 0px;
+  }
+
+  .our-team-img-info {
+    display: flex;
+    padding-top: 0px;
+  }
+  .our-team-img-info p {
+    text-align: center !important;
+  }
+
+  .first-section .section-wrapper .col-sm-12:nth-child(2) {
+    padding-top: 25px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero-text-container .hero-title h1 {
+    width: 100%;
+    font-size: 3em;
+  }
+
+  .personal-box {
+    padding-top: 15px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

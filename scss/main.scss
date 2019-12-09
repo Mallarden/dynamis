@@ -1,0 +1,313 @@
+@import '_transitions';
+@import '_colors';
+@import '_reset';
+
+
+h1, h2, h3 {
+    font-family: 'Volkhov', serif !important;
+}
+p, ul, li {
+    font-family: 'Montserrat', sans-serif !important;
+}
+body {
+    overflow-x: hidden;
+    header {
+        height:75px;
+        background-color:white;
+        position: fixed;
+        width:100%;
+        top:0;
+        z-index:10;
+        .logo {
+            img {
+                height:75px;
+            }
+        }
+        .header-inner {
+            width:90%;
+            margin:0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        img {
+            
+        }
+        .menu {
+            ul {
+                li {
+                    list-style: none;
+                    padding-top: 25px;
+                    font-size:14px;
+                    a {
+                        color:#999;
+                    }
+                }
+            }
+        }
+        .dropdown {
+            .btn-secondary {
+            background-color:transparent;
+            border:0;
+            margin:15px;
+            }
+        }
+        .support-btn {
+            margin: 15px;
+            height: 40px;
+            background-color: #1a1a1a;
+            border: 0;
+            border-radius: 25px;
+            font-size:14px;
+            width: 150px;
+        }
+    }
+}
+
+.wrapper {
+    width:100%;
+    max-width:100%;
+}
+
+.section-start {
+}
+.hero-image {
+    // background-image: url('../img/scenic-water.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index:-1;
+    top:0;
+    position:fixed;
+    height:85vh;
+    width:100%;
+    display: flex;
+}
+.hero-text-container {
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    margin:0 auto;
+    position: relative;
+    .hero-title {
+        width: 80%;
+        text-align: left;
+        margin: 0 auto;
+    }
+    h1 {
+        color:$teal;
+        font-size:5em;
+        text-align:center;
+        width: 60%;
+        min-width: 350px;
+    }
+}
+
+.arrow-scroll {
+    color:#22374C;
+    width:50px;
+    margin:0 auto;
+    display:block;
+    position: absolute;
+    font-size:5em;
+    left: 0;
+    bottom:0;
+    right: 0;
+    height: 15vh;
+}
+section {
+    background-color:white;
+    .col {
+    }
+    .section-wrapper {
+        padding:100px 0px 150px 0px;
+        width:75%;
+        margin:0 auto;
+        // max-width:960px;
+        justify-content: space-between;
+        h1 {
+        }
+        h2 {
+            text-align:center;
+        }
+        p {
+            margin-bottom:0.5rem;
+        }
+        ul {
+            width: max-content;
+            padding-inline-start:20px;
+        }
+    }
+}
+.second-section {
+    background-color:$teal;
+    iframe {
+        margin:0 auto;
+    }
+}
+
+.third-section {
+    background-color:#C4C4C4;
+    .section-wrapper {
+        .third-section-content {
+       
+        }
+    }
+}
+
+.fourth-section {
+    .personbild {
+        height: 200px;
+        max-width: 200px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+    .teambild {
+        max-width:75%;
+    }
+    .our-team-img-info {
+        padding-top:25px;
+        p {
+            text-align:left;
+        }
+    }
+}
+
+footer {
+    width:100%;
+    background-color:$teal;
+    padding-bottom: 25px;
+    h2 {
+        text-align:center;
+        color:white;
+        padding-top:20px;
+        font-size:1.5rem;
+    }
+    .footer-container {
+        width: 90%;
+        margin: 0 auto;
+        padding-top:20px;
+        .icon-wrapper {
+            color: white;
+            width: 200px;
+            margin: 0 auto;
+            justify-content: space-evenly;
+            height: 100%;
+            align-items: center;
+            i {
+                font-size:2.5em;
+            }
+        }
+        .side-col {
+            text-align:center;
+            color:white;
+        }
+    }
+}
+
+.copyright {
+    text-align:center;
+}
+
+
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+@media only screen and (max-width:1200px) {
+    section .section-wrapper {
+        width:90%;
+    }
+  
+}
+@media only screen and (max-width:1024px) {
+    .hero-text-container {
+        .hero-title {
+            width:100%;
+            text-align: center;
+            h1 {
+                width:100%;
+                font-size:4em;
+            }
+        }
+    }
+
+    .third-section {
+        background-color:#C4C4C4;
+        .section-wrapper {
+            .third-section-content {
+                flex-direction: column;
+            }
+        }
+    }
+    
+
+}
+@media only screen and (max-width:991px) {
+    footer {
+     
+        h2 {
+            padding-top:30px;
+        }
+        .footer-container {
+
+            padding-top:0px;
+            .icon-wrapper {
+                color: white;
+                width: 200px;
+                margin: 0 auto;
+                justify-content: space-evenly;
+                height: 100%;
+                align-items: center;
+                i {
+                    font-size:2.5em;
+                }
+            }
+        }
+        div {
+            padding:10px 0px 10px 0px;
+            ul, p {
+                margin-bottom:0px;
+            }
+        }
+    }
+    .our-team-img-info {
+        display:flex;
+        padding-top:0px;
+        p {
+            text-align:center !important;
+        }
+    }
+    .first-section {
+        .section-wrapper {
+            .col-sm-12:nth-child(2) {
+                padding-top:25px;
+            }
+        }
+    }
+}
+@media only screen and (max-width:768px) {
+    .hero-text-container {
+        .hero-title {
+            h1 {
+                width:100%;
+                font-size:3em;
+            }
+        }
+    }
+    .personal-box {
+        padding-top:15px;
+    }
+    
+}
+@media only screen and (max-width:480px) {
+ 
+
+}
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
