@@ -94,7 +94,8 @@ get_header(); ?>
           <div class="our-team-img-info">
             <div class="col-xs-12 col-sm-6 fade-y personbild"
               style="background-image:url('<?php the_sub_field('personbild'); ?>')"></div>
-            <div class="col-xs-12 col-sm-6 fade-y">
+            <div class="col-xs-12 col-sm-6 fade-y pt-4" style="max-width: max-content;
+    margin: 0 auto;">
               <p><?php the_sub_field('personinfo');?>
             </div>
             </p>

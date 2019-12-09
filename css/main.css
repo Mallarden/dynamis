@@ -175,7 +175,7 @@ body header .support-btn {
 }
 .hero-text-container h1 {
   color: #22374C;
-  font-size: 5em;
+  font-size: 4em;
   text-align: center;
   width: 60%;
   min-width: 350px;
@@ -237,7 +237,6 @@ section .section-wrapper ul {
 .fourth-section .our-team-img-info {
   padding-top: 25px;
   margin: 0 auto;
-  max-width: min-content;
 }
 .fourth-section .our-team-img-info p {
   text-align: left;
@@ -255,7 +254,7 @@ footer h2 {
   font-size: 1.5rem;
 }
 footer .footer-container {
-  width: 75%;
+  width: 65%;
   margin: 0 auto;
   padding-top: 20px;
 }
@@ -267,8 +266,12 @@ footer .footer-container .icon-wrapper {
   height: 100%;
   align-items: center;
 }
-footer .footer-container .icon-wrapper i {
+footer .footer-container .icon-wrapper a {
+  color: white !important;
+}
+footer .footer-container .icon-wrapper a i {
   font-size: 2.5em;
+  color: white;
 }
 footer .footer-container .side-col {
   text-align: center;

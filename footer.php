@@ -1,21 +1,21 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
-			<h2>Dynamis investment partner</h2>
+			<h2>Dynamis Investment Partners Ltd</h2>
 
 				<div class="row footer-container">
 					<div class="col-lg-3 side-col">
 					<b><p>Adress</p></b>
 						<ul>
-							<li>25 Sackvill Street</li>
+							<li>25 Sackville Street</li>
 							<li>London, WIS 3AX</li>
 							<li>UNITED KINGDOM</li>
 						</ul>
 					</div>
 					<div class="col-lg-6">
 						<div class="icon-wrapper d-flex">
-							<i class="fa fa-facebook-f"></i>
-							<i class="fa fa-vimeo-v"></i>
-							<i class="fab fa-linkedin-in"></i>
+							<a href="https://www.facebook.com/Dynamisinvestment" target="_blank"><i class="fa fa-facebook-f"></i></a>
+							<a href="https://vimeo.com/dynamisinvestment" target="_blank"><i class="fa fa-vimeo"></i></a>
+							<a href="https://www.linkedin.com/company/dynamisinvestmentpartners/" target="_blank"><i class="fa fa-linkedin"></i></a>
 						</div>
 					</div>
 					<div class="col-lg-3 side-col">
