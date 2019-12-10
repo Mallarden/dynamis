@@ -34,7 +34,8 @@ get_header(); ?>
       </div>
     </section>
     <section class="second-section">
-      <div class="section-wrapper row fade-y" data-delighter="start:0.85;">
+      <div class="section-wrapper row fade-y display: flex;
+    justify-content: center;" data-delighter="start:0.85;">
         <? the_field('sektion_2_videoblock');?>
       </div>
     </section>
