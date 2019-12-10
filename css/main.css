@@ -104,12 +104,19 @@ body header {
   top: 0;
   z-index: 10;
 }
-body header .logo img {
-  height: 75px;
+body header .logo a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body header .logo a img {
+  height: 50px;
 }
 body header .header-inner {
   width: 90%;
   margin: 0 auto;
+  height: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -226,7 +233,6 @@ section .section-wrapper ul {
   background-color: #F4F5F6;
 }
 .fourth-section .personbild {
-  min-width: 150px;
   margin: 0 auto;
   height: 200px;
   max-width: 200px;
@@ -308,6 +314,18 @@ footer .footer-container .side-col {
   }
 }
 @media only screen and (max-width: 991px) {
+  .fourth-section .personbild {
+    margin: 0 auto;
+    height: 175px;
+    max-width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+  }
+  .fourth-section p {
+    text-align: left !important;
+  }
+
   footer h2 {
     padding-top: 30px;
   }
@@ -337,7 +355,7 @@ footer .footer-container .side-col {
     padding-top: 0px;
   }
   .our-team-img-info p {
-    text-align: center !important;
+    text-align: center;
   }
 
   .first-section .section-wrapper .col-sm-12:nth-child(2) {
