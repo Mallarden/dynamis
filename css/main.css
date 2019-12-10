@@ -175,7 +175,7 @@ body header .support-btn {
 }
 .hero-text-container h1 {
   color: #22374C;
-  font-size: 4em;
+  font-size: 4x5em;
   text-align: center;
   width: 60%;
   min-width: 350px;
@@ -223,7 +223,7 @@ section .section-wrapper ul {
 }
 
 .third-section {
-  background-color: #C4C4C4;
+  background-color: #F4F5F6;
 }
 .fourth-section .personbild {
   min-width: 150px;

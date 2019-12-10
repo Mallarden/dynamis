@@ -40,7 +40,7 @@ get_header(); ?>
     </section>
     <section class="third-section">
       <div class="section-wrapper">
-        <h2 class="fade-y" data-delighter="start:0.96;">Making a real impact</h2>
+        <h2 class="fade-y" data-delighter="start:0.96;"><strong>Making a real impact</strong></h2>
         <div class="d-flex third-section-content  pt-5">
           <?php if( have_rows('sektion_3') ):
 							while ( have_rows('sektion_3') ) : the_row(); ?>
@@ -56,19 +56,18 @@ get_header(); ?>
           </div>
           <div class="col-sm-12 col-lg-4">
             <div>
-              <h4 class="fade-y" data-delighter="start:0.89;">Direct Impact</h4>
+              <h4 class="fade-y text-center" data-delighter="start:0.89;">Direct Impact</h4>
               <div class="d-flex pt-2" style="flex-flow: wrap;">
                 <?php if( have_rows('direct_impact') ):
 							while ( have_rows('direct_impact') ) : the_row(); ?>
-                <div class="col-lg-6 col-sm-6 fade-y pr-0" style="    flex: 1 1 140px;
-    margin: 10px;" data-delighter="start:0.92;">
+                <div class="col col-lg-4 fade-y pr-0" style="" data-delighter="start:0.92;">
                   <img class="" src="<? the_sub_field('direct_impact_bild');?>" />
                 </div>
                 <?php endwhile;	else :endif; ?>
               </div>
             </div>
             <div class="pt-5">
-              <h4 class="fade-y" data-delighter="start:0.95;">Indirect Impact</h4>
+              <h4 class="fade-y text-center" data-delighter="start:0.95;">Indirect Impact</h4>
               <div class="d-flex pt-2">
                 <?php if( have_rows('indirect_impact') ):
 							while ( have_rows('indirect_impact') ) : the_row(); ?>
