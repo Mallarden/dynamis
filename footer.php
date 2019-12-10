@@ -21,7 +21,7 @@
 					<div class="col-lg-3 side-col">
 					<b><p>PHONE & EMAIL</p></b>
 						<ul>
-							<li> +44 203 542 0986</li>
+							<li>+44203 542 0986</li>
 							<li>info@dynamisinvestment.com</li>
 						</ul>
 					</div>
