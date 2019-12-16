@@ -1,10 +1,11 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
-			<h2>Dynamis Investment Partners Ltd</h2>
-
-				<div class="row footer-container">
+				<h2 class="pt-5">Dynamis Investment Partners Ltd</h2>
+				<div class="row footer-container pb-4">
 					<div class="col-lg-3 side-col">
-					<b><p>Adress</p></b>
+						<b>
+							<p>Address</p>
+						</b>
 						<ul>
 							<li>25 Sackville Street</li>
 							<li>London, WIS 3AX</li>
@@ -13,13 +14,17 @@
 					</div>
 					<div class="col-lg-6">
 						<div class="icon-wrapper d-flex">
-							<a href="https://www.facebook.com/Dynamisinvestment" target="_blank"><i class="fa fa-facebook-f"></i></a>
+							<a href="https://www.facebook.com/Dynamisinvestment" target="_blank"><i
+									class="fa fa-facebook-f"></i></a>
 							<a href="https://vimeo.com/dynamisinvestment" target="_blank"><i class="fa fa-vimeo"></i></a>
-							<a href="https://www.linkedin.com/company/dynamisinvestmentpartners/" target="_blank"><i class="fa fa-linkedin"></i></a>
+							<a href="https://www.linkedin.com/company/dynamisinvestmentpartners/" target="_blank"><i
+									class="fa fa-linkedin"></i></a>
 						</div>
 					</div>
 					<div class="col-lg-3 side-col">
-					<b><p>PHONE & EMAIL</p></b>
+						<b>
+							<p>PHONE & EMAIL</p>
+						</b>
 						<ul>
 							<li>+44203 542 0986</li>
 							<li>info@dynamisinvestment.com</li>
