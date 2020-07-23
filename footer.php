@@ -7,8 +7,8 @@
 							<p>Address</p>
 						</b>
 						<ul>
-							<li>25 Sackville Street</li>
-							<li>London, WIS 3AX</li>
+							<li>48 Warwick Street</li>
+							<li>London, W1B 5AW</li>
 							<li>UNITED KINGDOM</li>
 						</ul>
 					</div>
